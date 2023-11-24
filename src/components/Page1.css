@@ -1,0 +1,171 @@
+
+
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: flex;
+	position: relative;
+	z-index: 10;
+  background: url(../images/newbg.png);
+  position: relative;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.textclass{
+ position: absolute;
+ align-items: center;
+ color: white;
+ font-size: 5em;
+ text-shadow: 2px 4px 5px rgb(10, 10, 10);
+ margin-top: 18%;
+ margin-left: 35%;
+
+
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	/* position: fixed; */
+}
+.animation_layer.parallax{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+
+}
+
+#artback {
+  background-image: url(../images/tree-left.png);
+}
+
+#mountain {
+  background-image: url(../images/tree-right.png);
+}
+
+#logoland {
+  background-image: url(../images/gate-left.png);
+  transform: translateX(-282px);
+}
+
+#jungle1 {
+  background-image: url(../images/gate-right.png);
+  transform: translateX(305px);
+}
+
+#jungle2 {
+  background-image: url(../images/grass.png);
+}
+
+/* #jungle3 {
+  background-image: url(./images/tree.png);
+}
+
+#jungle4 {
+  background-image: url(./images/leaf.png);
+}
+
+#jungle5 {
+  background-image: url(./images/plant.png);
+} */
+
+/* #manonmountain {
+  background-image: url(./images/background1.jpg);
+} */
+.textarea{
+  background-color: 
+  black;
+}
+.sec{
+  position: relative;
+  padding: 30px 100px;
+margin-top: 25px;
+background: black;
+
+}
+.sec h1{
+  font-size: 2em;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 4px 5px rgb(209, 205, 205);
+  text-align: left;
+}
+.sec p{
+  font-size: 1em;
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+}
+@media (max-width:1100px){
+    .sec{
+       margin-top: -680px;
+    }
+    .textclass{
+        /* margin-left: 25%; */
+        margin: 25%;
+    }
+    #textblock{
+        height: 50px;
+    }
+}
+@media (min-width:1100px){
+    .sec{
+       margin-bottom: -80px;
+    }
+}
