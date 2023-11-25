@@ -6,7 +6,7 @@ function Footer() {
   <div className="container">
     <div className="row">
       <div className="footer-col mt-4">
-        <h4>thundercoding</h4>
+        <h4>coding</h4>
         <ul>
           <li>
             <a href="#">About us</a>
