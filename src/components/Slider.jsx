@@ -21,6 +21,8 @@ const divStyle = {
   height: '400px',
   justifyContent: 'center',
   backgroundSize: 'cover',
+  width : '600px',
+ 
 };
 
 const spanStyle = {

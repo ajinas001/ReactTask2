@@ -52,7 +52,7 @@
   display: flex;
 	position: relative;
 	z-index: 10;
-  background: url(../images/newbg.png);
+  background: url('D:/tasks/react task 1/task2/task2/public/images/newbg.png');
   position: relative;
   justify-content: center;
   height: 100vh;
@@ -92,25 +92,25 @@
 }
 
 #artback {
-  background-image: url(../images/tree-left.png);
+  background-image: url('D:/tasks/react task 1/task2/task2/public/images/tree-left.png');
 }
 
 #mountain {
-  background-image: url(../images/tree-right.png);
+  background-image: url('D:/tasks/react task 1/task2/task2/public/images/tree-right.png');
 }
 
 #logoland {
-  background-image: url(../images/gate-left.png);
+  background-image: url('D:/tasks/react task 1/task2/task2/public/images/gate-left.png');
   transform: translateX(-282px);
 }
 
 #jungle1 {
-  background-image: url(../images/gate-right.png);
+  background-image: url('D:/tasks/react task 1/task2/task2/public/images/gate-right.png');
   transform: translateX(305px);
 }
 
 #jungle2 {
-  background-image: url(../images/grass.png);
+  background-image: url('D:/tasks/react task 1/task2/task2/public/images/grass.png');
 }
 
 /* #jungle3 {
@@ -152,7 +152,7 @@ background: black;
   font-weight: 300;
   text-align: justify;
 }
-@media (max-width:1100px){
+@media (max-width:1200px){
     .sec{
        margin-top: -680px;
     }
@@ -164,7 +164,7 @@ background: black;
         height: 50px;
     }
 }
-@media (min-width:1100px){
+@media (min-width:1200px){
     .sec{
        margin-bottom: -80px;
     }

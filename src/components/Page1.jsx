@@ -6,8 +6,10 @@ import 'aos/dist/aos.css'
 import './Page1.css'
 import Main from './Main';
 import Slider from 'react-slick';
-import ImageSlider from './Parallax';
+import ImageSlider, { Carousel } from './Parallax';
 import Footer from './Footer';
+import Slidercomp from './Slider';
+import Sliderimage from './Sliderimage';
 const  image1 = '../images/fly.jpg';
 
 
@@ -20,7 +22,7 @@ function Page1() {
     return (
         <>
             <div className="App">
-                <Parallax pages={2} style={{ top: '0', left: '0' }} class="animation" data-aos="zoom-in-up">
+                <Parallax pages={3} style={{ top: '0', left: '0' }} class="animation" data-aos="zoom-in-up">
                     <h2 className='textclass' data-aos="zoom-in-down">Scroll Me!!</h2>
                     <ParallaxLayer offset={0} speed={0.25}>
                         <div class="animation_layer parallax" id="artback"></div>
@@ -88,7 +90,7 @@ function Page1() {
                             </p>
                         </section>
                        <section>
-                        
+                           <Sliderimage/>
                        </section>
 
                         <footer>
