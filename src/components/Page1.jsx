@@ -4,11 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import './Page1.css'
-import Main from './Main';
-import Slider from 'react-slick';
-import ImageSlider, { Carousel } from './Parallax';
 import Footer from './Footer';
-import Slidercomp from './Slider';
 import Sliderimage from './Sliderimage';
 const  image1 = '../images/fly.jpg';
 
